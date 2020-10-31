@@ -1,0 +1,15 @@
+D:\EFCORE\Samurai\Samurai.Data\obj\Debug\netcoreapp3.1\Samurai.Data.csprojAssemblyReference.cache
+D:\EFCORE\Samurai\Samurai.Data\obj\Debug\netcoreapp3.1\Samurai.Data.AssemblyInfoInputs.cache
+D:\EFCORE\Samurai\Samurai.Data\obj\Debug\netcoreapp3.1\Samurai.Data.AssemblyInfo.cs
+D:\EFCORE\Samurai\Samurai.Data\obj\Debug\netcoreapp3.1\Samurai.Data.csproj.CoreCompileInputs.cache
+D:\EFCORE\Samurai\Samurai.Data\bin\Debug\netcoreapp3.1\Samurai.Data.deps.json
+D:\EFCORE\Samurai\Samurai.Data\bin\Debug\netcoreapp3.1\Samurai.Data.runtimeconfig.json
+D:\EFCORE\Samurai\Samurai.Data\bin\Debug\netcoreapp3.1\Samurai.Data.runtimeconfig.dev.json
+D:\EFCORE\Samurai\Samurai.Data\bin\Debug\netcoreapp3.1\Samurai.Data.dll
+D:\EFCORE\Samurai\Samurai.Data\bin\Debug\netcoreapp3.1\Samurai.Data.pdb
+D:\EFCORE\Samurai\Samurai.Data\bin\Debug\netcoreapp3.1\Samurai.Domain.dll
+D:\EFCORE\Samurai\Samurai.Data\bin\Debug\netcoreapp3.1\Samurai.Domain.pdb
+D:\EFCORE\Samurai\Samurai.Data\obj\Debug\netcoreapp3.1\Samurai.Data.csproj.CopyComplete
+D:\EFCORE\Samurai\Samurai.Data\obj\Debug\netcoreapp3.1\Samurai.Data.dll
+D:\EFCORE\Samurai\Samurai.Data\obj\Debug\netcoreapp3.1\Samurai.Data.pdb
+D:\EFCORE\Samurai\Samurai.Data\obj\Debug\netcoreapp3.1\Samurai.Data.genruntimeconfig.cache

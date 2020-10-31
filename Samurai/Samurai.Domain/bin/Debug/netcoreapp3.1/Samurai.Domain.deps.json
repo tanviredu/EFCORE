@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Samurai.Domain/1.0.0": {
+        "runtime": {
+          "Samurai.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Samurai.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

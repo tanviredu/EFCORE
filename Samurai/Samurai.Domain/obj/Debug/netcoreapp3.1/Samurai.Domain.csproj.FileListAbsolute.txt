@@ -1,0 +1,9 @@
+D:\EFCORE\Samurai\Samurai.Domain\bin\Debug\netcoreapp3.1\Samurai.Domain.deps.json
+D:\EFCORE\Samurai\Samurai.Domain\bin\Debug\netcoreapp3.1\Samurai.Domain.dll
+D:\EFCORE\Samurai\Samurai.Domain\bin\Debug\netcoreapp3.1\Samurai.Domain.pdb
+D:\EFCORE\Samurai\Samurai.Domain\obj\Debug\netcoreapp3.1\Samurai.Domain.csprojAssemblyReference.cache
+D:\EFCORE\Samurai\Samurai.Domain\obj\Debug\netcoreapp3.1\Samurai.Domain.AssemblyInfoInputs.cache
+D:\EFCORE\Samurai\Samurai.Domain\obj\Debug\netcoreapp3.1\Samurai.Domain.AssemblyInfo.cs
+D:\EFCORE\Samurai\Samurai.Domain\obj\Debug\netcoreapp3.1\Samurai.Domain.csproj.CoreCompileInputs.cache
+D:\EFCORE\Samurai\Samurai.Domain\obj\Debug\netcoreapp3.1\Samurai.Domain.dll
+D:\EFCORE\Samurai\Samurai.Domain\obj\Debug\netcoreapp3.1\Samurai.Domain.pdb
