@@ -15,5 +15,8 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\Samurai.Domain\Samurai.Domain.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Migrations" />
+	</ItemGroup>
 
 </Project>

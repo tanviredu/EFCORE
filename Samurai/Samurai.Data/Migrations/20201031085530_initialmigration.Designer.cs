@@ -9,7 +9,7 @@ using Samurai.Data;
 namespace Samurai.Data.Migrations
 {
     [DbContext(typeof(SamuraiContext))]
-    [Migration("20201031062349_initialmigration")]
+    [Migration("20201031085530_initialmigration")]
     partial class initialmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -17,6 +17,26 @@ namespace Samurai.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.9");
+
+            modelBuilder.Entity("Samurai.Domain.Battle", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Battles");
+                });
 
             modelBuilder.Entity("Samurai.Domain.Clan", b =>
                 {
@@ -30,6 +50,23 @@ namespace Samurai.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Clans");
+                });
+
+            modelBuilder.Entity("Samurai.Domain.Horse", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("SamuraiId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Horses");
                 });
 
             modelBuilder.Entity("Samurai.Domain.Quote", b =>
@@ -60,6 +97,9 @@ namespace Samurai.Data.Migrations
                     b.Property<int?>("ClanId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int?>("HorseId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
@@ -67,7 +107,29 @@ namespace Samurai.Data.Migrations
 
                     b.HasIndex("ClanId");
 
+                    b.HasIndex("HorseId");
+
                     b.ToTable("Samurais");
+                });
+
+            modelBuilder.Entity("Samurai.Domain.SamuraisBattle", b =>
+                {
+                    b.Property<int>("SamuraiId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("BattleId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("SamuraisId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("SamuraiId", "BattleId");
+
+                    b.HasIndex("BattleId");
+
+                    b.HasIndex("SamuraisId");
+
+                    b.ToTable("SamuraisBattle");
                 });
 
             modelBuilder.Entity("Samurai.Domain.Quote", b =>
@@ -84,6 +146,23 @@ namespace Samurai.Data.Migrations
                     b.HasOne("Samurai.Domain.Clan", "Clan")
                         .WithMany()
                         .HasForeignKey("ClanId");
+
+                    b.HasOne("Samurai.Domain.Horse", "Horse")
+                        .WithMany()
+                        .HasForeignKey("HorseId");
+                });
+
+            modelBuilder.Entity("Samurai.Domain.SamuraisBattle", b =>
+                {
+                    b.HasOne("Samurai.Domain.Battle", null)
+                        .WithMany("SamuraisBattles")
+                        .HasForeignKey("BattleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Samurai.Domain.Samurais", null)
+                        .WithMany("SamuraisBattles")
+                        .HasForeignKey("SamuraisId");
                 });
 #pragma warning restore 612, 618
         }
