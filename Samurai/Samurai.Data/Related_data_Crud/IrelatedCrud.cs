@@ -5,5 +5,9 @@
         void addRelatedData();
         void addDataDisconnectedSenario();
         void SamuraiEgarLoading();
+        void GetSamuraiwithHorse();
+        void GetHorseWithSamurai();
+        void AddHorse();
+        void filterwithrelatedData();
     }
 }

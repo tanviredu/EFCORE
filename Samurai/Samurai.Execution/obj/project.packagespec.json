@@ -15,7 +15,14 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "D:\\EFCORE\\Samurai\\Samurai.Data\\Samurai.Data.csproj": {
+            "projectPath": "D:\\EFCORE\\Samurai\\Samurai.Data\\Samurai.Data.csproj"
+          },
+          "D:\\EFCORE\\Samurai\\Samurai.Domain\\Samurai.Domain.csproj": {
+            "projectPath": "D:\\EFCORE\\Samurai\\Samurai.Domain\\Samurai.Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

@@ -15,6 +15,8 @@ namespace Samurai.Data
         // for horses you can only access with the 
         // Samurai Entity but to create a table we need 
         // a db set so to do that we use the fluent API
+        // but if you want to make an entity 
+        // you can make it if you want
         
         
 
