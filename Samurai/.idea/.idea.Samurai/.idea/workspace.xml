@@ -23,33 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdc43370-e2a4-4c21-b4b1-77febfa22a3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Samurai/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Samurai/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Data/BasicCrud/ICrudInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Data/BasicCrud/ICrudInterface.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Data/Related_data_Crud/IrelatedCrud.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Data/Related_data_Crud/IrelatedCrud.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Data/Related_data_Crud/Related_Crud.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Data/Related_data_Crud/Related_Crud.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Data/SamuraiContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Data/SamuraiContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Data/bin/Debug/netcoreapp3.1/Samurai.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Data/bin/Debug/netcoreapp3.1/Samurai.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Data/bin/Debug/netcoreapp3.1/Samurai.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Data/bin/Debug/netcoreapp3.1/Samurai.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Data/obj/Debug/netcoreapp3.1/Samurai.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Data/obj/Debug/netcoreapp3.1/Samurai.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Data/obj/Debug/netcoreapp3.1/Samurai.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Data/obj/Debug/netcoreapp3.1/Samurai.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/Battle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/Battle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/Clan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/Clan.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/Horse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/Horse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/Quote.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/Quote.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/Samurais.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/Samurais.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/SamuraisBattle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/SamuraisBattle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/bin/Debug/netcoreapp3.1/Samurai.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/bin/Debug/netcoreapp3.1/Samurai.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/bin/Debug/netcoreapp3.1/Samurai.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/bin/Debug/netcoreapp3.1/Samurai.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/obj/Debug/netcoreapp3.1/Samurai.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/obj/Debug/netcoreapp3.1/Samurai.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/obj/Debug/netcoreapp3.1/Samurai.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/obj/Debug/netcoreapp3.1/Samurai.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Domain/obj/Debug/netcoreapp3.1/Samurai.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Domain/obj/Debug/netcoreapp3.1/Samurai.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Execution/bin/Debug/netcoreapp3.1/Samurai.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Execution/bin/Debug/netcoreapp3.1/Samurai.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Execution/bin/Debug/netcoreapp3.1/Samurai.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Execution/bin/Debug/netcoreapp3.1/Samurai.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Execution/bin/Debug/netcoreapp3.1/Samurai.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Execution/bin/Debug/netcoreapp3.1/Samurai.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Execution/bin/Debug/netcoreapp3.1/Samurai.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Execution/bin/Debug/netcoreapp3.1/Samurai.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samurai.Execution/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Samurai.Execution/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samurai.db" beforeDir="false" afterPath="$PROJECT_DIR$/samurai.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samurai.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/samurai.db-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Samurai/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Samurai/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604051264467</updated>
-      <workItem from="1604051313995" duration="23023000" />
+      <workItem from="1604051313995" duration="24512000" />
     </task>
     <servers />
   </component>
@@ -154,25 +128,25 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="260" key="GridCell.Tab.0.bottom" timestamp="1604161929228">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="260" key="GridCell.Tab.0.bottom" timestamp="1604195529903">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604051428227" />
+    <state width="1237" height="260" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604195529903" />
     <state width="1237" height="260" key="GridCell.Tab.0.bottom/1280.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1604161929228" />
-    <state width="1237" height="260" key="GridCell.Tab.0.center" timestamp="1604161929225">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="260" key="GridCell.Tab.0.center" timestamp="1604195529899">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604051428226" />
+    <state width="1237" height="260" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604195529899" />
     <state width="1237" height="260" key="GridCell.Tab.0.center/1280.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1604161929225" />
-    <state width="1237" height="260" key="GridCell.Tab.0.left" timestamp="1604161929217">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="260" key="GridCell.Tab.0.left" timestamp="1604195529895">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604051428226" />
+    <state width="1237" height="260" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604195529895" />
     <state width="1237" height="260" key="GridCell.Tab.0.left/1280.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1604161929217" />
-    <state width="1237" height="260" key="GridCell.Tab.0.right" timestamp="1604161929226">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="260" key="GridCell.Tab.0.right" timestamp="1604195529899">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604051428227" />
+    <state width="1237" height="260" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604195529899" />
     <state width="1237" height="260" key="GridCell.Tab.0.right/1280.0.1366.728/0.0.1280.984@0.0.1280.984" timestamp="1604161929226" />
     <state x="474" y="111" key="RiderGenerateDialog" timestamp="1604140853603">
       <screen x="0" y="0" width="1280" height="984" />
